@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 3e1e9c579ac1149fa9dd8cf507e31d28
+timeCreated: 1517336030
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: EnvironmentAmbientLight
+    100002: Sqd_arm1_L
+    100004: Sqd_arm1_R
+    100006: Sqd_arm2_L
+    100008: Sqd_arm2_R
+    100010: Sqd_arm3_L
+    100012: Sqd_arm3_L_end
+    100014: Sqd_arm3_R
+    100016: Sqd_arm3_R_end
+    100018: Sqd_eye_L
+    100020: Sqd_eye_L_end
+    100022: Sqd_eye_R
+    100024: Sqd_eye_R_end
+    100026: Sqd_forehead
+    100028: Sqd_forehead_end
+    100030: Sqd_head0
+    100032: Sqd_head1
+    100034: Sqd_head2
+    100036: Sqd_head2_end
+    100038: Sqd_joint_root
+    100040: Sqd_legA1
+    100042: Sqd_legA2
+    100044: Sqd_legA2_end
+    100046: Sqd_legB1
+    100048: Sqd_legB2
+    100050: Sqd_legB2_end
+    100052: Sqd_legC1
+    100054: Sqd_legC2
+    100056: Sqd_legC2_end
+    100058: Sqd_legD1
+    100060: Sqd_legD2
+    100062: Sqd_legD2_end
+    100064: Sqd_root
+    100066: Sqd_waist
+    100068: Squid
+    100070: //RootNode
+    400000: EnvironmentAmbientLight
+    400002: Sqd_arm1_L
+    400004: Sqd_arm1_R
+    400006: Sqd_arm2_L
+    400008: Sqd_arm2_R
+    400010: Sqd_arm3_L
+    400012: Sqd_arm3_L_end
+    400014: Sqd_arm3_R
+    400016: Sqd_arm3_R_end
+    400018: Sqd_eye_L
+    400020: Sqd_eye_L_end
+    400022: Sqd_eye_R
+    400024: Sqd_eye_R_end
+    400026: Sqd_forehead
+    400028: Sqd_forehead_end
+    400030: Sqd_head0
+    400032: Sqd_head1
+    400034: Sqd_head2
+    400036: Sqd_head2_end
+    400038: Sqd_joint_root
+    400040: Sqd_legA1
+    400042: Sqd_legA2
+    400044: Sqd_legA2_end
+    400046: Sqd_legB1
+    400048: Sqd_legB2
+    400050: Sqd_legB2_end
+    400052: Sqd_legC1
+    400054: Sqd_legC2
+    400056: Sqd_legC2_end
+    400058: Sqd_legD1
+    400060: Sqd_legD2
+    400062: Sqd_legD2_end
+    400064: Sqd_root
+    400066: Sqd_waist
+    400068: Squid
+    400070: //RootNode
+    2100000: Material__50
+    2100002: Material__51
+    4300000: Squid
+    9500000: //RootNode
+    10800000: EnvironmentAmbientLight
+    13700000: Squid
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

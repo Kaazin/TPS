@@ -1,0 +1,295 @@
+fileFormatVersion: 2
+guid: 547db9f7aa32f4efa855822ca76f090b
+timeCreated: 1517336030
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: arm1_L
+    100002: arm1_R
+    100004: arm1sub_L
+    100006: arm1sub_R
+    100008: arm2_L
+    100010: arm2_R
+    100012: arm2sub_L
+    100014: arm2sub_R
+    100016: Armature
+    100018: chest
+    100020: crotch_L
+    100022: crotch_R
+    100024: ear_L
+    100026: ear_L_end
+    100028: ear_R
+    100030: ear_R_end
+    100032: eye_sqd_L
+    100034: eye_sqd_L_end
+    100036: eye_sqd_R
+    100038: eye_sqd_R_end
+    100040: eyebrow
+    100042: eyebrow_end
+    100044: fingerA1_L
+    100046: fingerA1_R
+    100048: fingerA2_L
+    100050: fingerA2_L_end
+    100052: fingerA2_R
+    100054: fingerA2_R_end
+    100056: fingerB1_L
+    100058: fingerB1_R
+    100060: fingerB2_L
+    100062: fingerB2_L_end
+    100064: fingerB2_R
+    100066: fingerB2_R_end
+    100068: foot_L
+    100070: foot_R
+    100072: Hair1
+    100074: Hair2_L
+    100076: Hair2_R
+    100078: Hair3_L
+    100080: Hair3_R
+    100082: Hair4_L
+    100084: Hair4_L_end
+    100086: Hair4_R
+    100088: Hair4_R_end
+    100090: hand_L
+    100092: hand_R
+    100094: head
+    100096: hip
+    100098: InklingM
+    100100: InklingM_Mouth0
+    100102: InklingM_Mouth1
+    100104: InklingM_Mouth2
+    100106: InklingM_Mouth3
+    100108: InklingM_Mouth4
+    100110: joint_root
+    100112: //RootNode
+    100114: leg1_L
+    100116: leg1_R
+    100118: leg1sub_L
+    100120: leg1sub_R
+    100122: leg2_L
+    100124: leg2_R
+    100126: leg2sub_L
+    100128: leg2sub_R
+    100130: mouth
+    100132: mouth00
+    100134: mouth00_end
+    100136: mouth01
+    100138: mouth01_end
+    100140: mouth02
+    100142: mouth02_end
+    100144: mouth03
+    100146: mouth03_end
+    100148: mouth04
+    100150: mouth04_end
+    100152: mouth_end
+    100154: neck
+    100156: root
+    100158: shoulder_L
+    100160: shoulder_R
+    100162: spine1
+    100164: spine2
+    100166: tank_root
+    100168: tank_root_end
+    100170: thumb_L
+    100172: thumb_L_end
+    100174: thumb_R
+    100176: thumb_R_end
+    100178: toe_L
+    100180: toe_L_end
+    100182: toe_R
+    100184: toe_R_end
+    100186: weapon
+    100188: weapon_end
+    400000: arm1_L
+    400002: arm1_R
+    400004: arm1sub_L
+    400006: arm1sub_R
+    400008: arm2_L
+    400010: arm2_R
+    400012: arm2sub_L
+    400014: arm2sub_R
+    400016: Armature
+    400018: chest
+    400020: crotch_L
+    400022: crotch_R
+    400024: ear_L
+    400026: ear_L_end
+    400028: ear_R
+    400030: ear_R_end
+    400032: eye_sqd_L
+    400034: eye_sqd_L_end
+    400036: eye_sqd_R
+    400038: eye_sqd_R_end
+    400040: eyebrow
+    400042: eyebrow_end
+    400044: fingerA1_L
+    400046: fingerA1_R
+    400048: fingerA2_L
+    400050: fingerA2_L_end
+    400052: fingerA2_R
+    400054: fingerA2_R_end
+    400056: fingerB1_L
+    400058: fingerB1_R
+    400060: fingerB2_L
+    400062: fingerB2_L_end
+    400064: fingerB2_R
+    400066: fingerB2_R_end
+    400068: foot_L
+    400070: foot_R
+    400072: Hair1
+    400074: Hair2_L
+    400076: Hair2_R
+    400078: Hair3_L
+    400080: Hair3_R
+    400082: Hair4_L
+    400084: Hair4_L_end
+    400086: Hair4_R
+    400088: Hair4_R_end
+    400090: hand_L
+    400092: hand_R
+    400094: head
+    400096: hip
+    400098: InklingM
+    400100: InklingM_Mouth0
+    400102: InklingM_Mouth1
+    400104: InklingM_Mouth2
+    400106: InklingM_Mouth3
+    400108: InklingM_Mouth4
+    400110: joint_root
+    400112: //RootNode
+    400114: leg1_L
+    400116: leg1_R
+    400118: leg1sub_L
+    400120: leg1sub_R
+    400122: leg2_L
+    400124: leg2_R
+    400126: leg2sub_L
+    400128: leg2sub_R
+    400130: mouth
+    400132: mouth00
+    400134: mouth00_end
+    400136: mouth01
+    400138: mouth01_end
+    400140: mouth02
+    400142: mouth02_end
+    400144: mouth03
+    400146: mouth03_end
+    400148: mouth04
+    400150: mouth04_end
+    400152: mouth_end
+    400154: neck
+    400156: root
+    400158: shoulder_L
+    400160: shoulder_R
+    400162: spine1
+    400164: spine2
+    400166: tank_root
+    400168: tank_root_end
+    400170: thumb_L
+    400172: thumb_L_end
+    400174: thumb_R
+    400176: thumb_R_end
+    400178: toe_L
+    400180: toe_L_end
+    400182: toe_R
+    400184: toe_R_end
+    400186: weapon
+    400188: weapon_end
+    2100000: 'Material #37'
+    2100002: 'Material #41'
+    2100004: 'Material #38'
+    2100006: 'Material #39'
+    2100008: 'Material #40'
+    4300000: InklingM_Mouth4
+    4300002: InklingM_Mouth0
+    4300004: InklingM
+    4300006: InklingM_Mouth2
+    4300008: InklingM_Mouth1
+    4300010: InklingM_Mouth3
+    9500000: //RootNode
+    13700000: InklingM
+    13700002: InklingM_Mouth0
+    13700004: InklingM_Mouth1
+    13700006: InklingM_Mouth2
+    13700008: InklingM_Mouth3
+    13700010: InklingM_Mouth4
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
