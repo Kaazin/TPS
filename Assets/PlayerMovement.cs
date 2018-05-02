@@ -25,6 +25,6 @@ public class PlayerMovement : MonoBehaviour
 
 		dir = new Vector3 (moveH, dir.y, moveV) ;
 	
-		controller.Move (Camera.main.transform.rotation * dir * Time.deltaTime);
+		controller.Move (this.transform.rotation* dir * Time.deltaTime);
 	}
 }

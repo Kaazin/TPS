@@ -16,12 +16,11 @@ public class PlayerShooting : MonoBehaviour
 	{
 		cameraRotation = Camera.main.transform.rotation;
 
-		if (Input.GetButton ("Fire1")) {
-			player.transform.parent = Camera.main.transform;
-			player.transform.localRotation = Quaternion.Euler (Vector3.zero);
+		if (Input.GetButton ("Fire1")) 
+		{
+			player.transform.parent = Camera.ttmain.tra
 			Instantiate (paint, transform.position, transform.rotation);
-		} else
-			player.transform.parent = null;
+		}
 	}
 
 }
