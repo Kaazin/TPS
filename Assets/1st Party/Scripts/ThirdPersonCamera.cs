@@ -4,19 +4,20 @@ using UnityEngine;
 
 public class ThirdPersonCamera : MonoBehaviour 
 {
-	Transform player;
+	Transform player;   //the player's transform
 
-	public Vector3 _camOffset;
+	public Vector3 _camOffset; //the camera's offset from the player
 
-	public float smoothing = 0.5f;
+	public float smoothing = 0.5f; // camera smoothing
 
-	Transform fulcrum;
-	public float sensitivityX = 4;
-	public float sensitivityY = 1;
-	float currentX, currentY;
+	Transform fulcrum;  //the point which the camer will rotate around
+	public float sensitivityX = 4;  //the sensitivity of the x axis
+	public float sensitivityY = 1; //the sensitivity of the y axis
+	float currentX, currentY;   //the current values of mouse x and mouse y
 
-	void Awake()
+    void Awake()
 	{
+        //set up the references
 		player = GameObject.FindGameObjectWithTag ("Player").transform;
 		_camOffset = transform.position - player.position;
 		fulcrum = GameObject.Find ("Fulcrum").transform;
@@ -24,27 +25,29 @@ public class ThirdPersonCamera : MonoBehaviour
 
 	void Update()
 	{
+        //assign a value to current x and current y
 		currentX = Input.GetAxis ("Mouse X");
 		currentY = Input.GetAxis ("Mouse Y");
+
+        //run the orbit and rotate functions
 		Orbit ();
-		Rotate ();
+		//Rotate ();
+
 	 }
 
-	void LateUpdate()
-	{
-		Vector3 newPos = player.position + _camOffset;
-
-		transform.position = Vector3.Slerp (transform.position, newPos, smoothing);
-
-
-	}
 
 	void Orbit()
 	{
-		//transform.RotateAround (player.position, Vector3.right, Input.GetAxis("Mouse Y")  * smoothing);
-	}
-	void Rotate()
+        //rotate the camera around the x axis of the fulcrum
+        fulcrum.transform.Rotate(new Vector3(currentY, currentX,0));
+        //fulcrum.transform.rotation = Quaternion.Euler(new Vector3(currentY, currentX, 0));
+        //fulcrum.transform.Rotate(Vector3.up * currentX);
+
+    }
+    void Rotate()
 	{
-		transform.RotateAround (fulcrum.position, Vector3.up, Input.GetAxis("Mouse X")  * smoothing);
+        //rotate the camera around the y axis of the fulcrum
+
+        fulcrum.transform.Rotate(Vector3.up * currentX);
 	}
 }
