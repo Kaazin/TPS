@@ -23,8 +23,8 @@ public class PlayerMovement : MonoBehaviour
 		float moveV = Input.GetAxis ("Vertical") * speed;
 
 
-		dir = new Vector3 (moveH, dir.y, moveV);
-
-		controller.Move (dir * Time.deltaTime);
+		dir = new Vector3 (moveH, dir.y, moveV) ;
+	
+		controller.Move (this.transform.rotation* dir * Time.deltaTime);
 	}
 }

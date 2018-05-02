@@ -13,10 +13,11 @@ public class ThirdPersonCamera : MonoBehaviour
 	Transform fulcrum;  //the point which the camer will rotate around
 	public float sensitivityX = 4;  //the sensitivity of the x axis
 	public float sensitivityY = 1; //the sensitivity of the y axis
-	float currentX, currentY;   //the current values of mouse x and mouse y
+	public float currentX, currentY;   //the current values of mouse x and mouse y
 
     void Awake()
 	{
+		Cursor.lockState = CursorLockMode.Locked;
         //set up the references
 		player = GameObject.FindGameObjectWithTag ("Player").transform;
 		_camOffset = transform.position - player.position;
@@ -31,23 +32,20 @@ public class ThirdPersonCamera : MonoBehaviour
 
         //run the orbit and rotate functions
 		Orbit ();
-		//Rotate ();
+
+		if (Input.GetKeyDown (KeyCode.Escape)) 
+		{
+			Cursor.lockState = CursorLockMode.None;
+		}
 
 	 }
 
 
 	void Orbit()
 	{
-        //rotate the camera around the x axis of the fulcrum
-        fulcrum.transform.Rotate(new Vector3(currentY, currentX,0));
-        //fulcrum.transform.rotation = Quaternion.Euler(new Vector3(currentY, currentX, 0));
-        //fulcrum.transform.Rotate(Vector3.up * currentX);
 
+		transform.RotateAround (fulcrum.position, Vector3.up, Time.deltaTime * currentX * smoothing);
+		transform.RotateAround (fulcrum.position, transform.right, Time.deltaTime * -currentY * smoothing);
     }
-    void Rotate()
-	{
-        //rotate the camera around the y axis of the fulcrum
-
-        fulcrum.transform.Rotate(Vector3.up * currentX);
-	}
 }
+

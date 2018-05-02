@@ -128,7 +128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   splatter: {fileID: 1633613154542482, guid: 88c22175d37964f63a256b4b5dd571d0, type: 2}
   rotation: {x: 90, y: 0, z: 0}
-  footPos: 0.75
+  footPos: -0.6
 --- !u!198 &198139284291330476
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -3595,14 +3595,14 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1622210102
+  randomSeed: -590087014
   InitialModule:
     serializedVersion: 3
     enabled: 1
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 2
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -3643,7 +3643,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 30
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -3997,7 +3997,7 @@ ParticleSystem:
     gravityModifier:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 9.8
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -4815,7 +4815,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    inWorldSpace: 0
+    inWorldSpace: 1
   InheritVelocityModule:
     enabled: 0
     m_Mode: 0

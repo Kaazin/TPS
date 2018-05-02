@@ -40,7 +40,7 @@ public class SpawnSplatter : MonoBehaviour
 				Vector3 pos = collisionEvents[i].intersection;
 				Quaternion rot = Quaternion.Euler (rotation);
 
-				Instantiate (splatter, new Vector3(pos.x,(Player.transform.position.y + Player.gameObject.transform.localScale.y) - footPos ,pos.z), rot);
+				Instantiate (splatter, new Vector3(pos.x,(Player.transform.position.y + footPos) ,pos.z), rot);
 			}
 			i++;
 		}
