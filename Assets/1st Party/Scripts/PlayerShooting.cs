@@ -18,7 +18,10 @@ public class PlayerShooting : MonoBehaviour
 
 		if (Input.GetButton ("Fire1")) 
 		{
-			player.transform.parent = Camera.ttmain.tra
+            Vector3 playerAngle = player.eulerAngles;
+            playerAngle.y = Camera.main.transform.eulerAngles.y;
+            player.eulerAngles = playerAngle;
+            
 			Instantiate (paint, transform.position, transform.rotation);
 		}
 	}
